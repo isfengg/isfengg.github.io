@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Improve the tracking speed of Magic Mouse</title>
+    <link href="/2020/03/01/Improve_the_tracking_speed_of_Magic_Mouse/"/>
+    <url>/2020/03/01/Improve_the_tracking_speed_of_Magic_Mouse/</url>
+    
+    <content type="html"><![CDATA[<p>If you have already set the trace speed to the hightest level in system perferences, and you still feel the mouse move slowly. Here is a tip!</p><p>First, check your speed level in terminal.</p><pre><code class="lang-bash">defaults read -g com.apple.mouse.scaling</code></pre><p>The result should be 3. And I strongly recommand you set the number between 6 and 8, or it is too fast to control. Run the code below in terminal.</p><pre><code class="lang-bash">defaults write -g com.apple.mouse.scaling 7</code></pre><p>This setting will not make effect until you restart your machine.</p><p>Next time, you still can use this method to change the speed level. Or in system perferences, the highest level still is 3.</p><p>In this way, the track pad would not be affected.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2020/03/01/hello-world/"/>
+    <url>/2020/03/01/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>‘’’<br>math: true<br>‘’’<br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<script type="math/tex">e=1</script></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="lang-bash">$ hexo new &quot;My New Post&quot;we$443$</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="lang-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="lang-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="lang-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>

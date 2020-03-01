@@ -16,7 +16,7 @@
   <meta name="description" content="isfengg@outlook.com">
   <meta name="author" content="Feng Gao">
   <meta name="keywords" content="">
-  <title>Feng Gao</title>
+  <title>Improve the tracking speed of Magic Mouse ~ Feng Gao</title>
 
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css"  >
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css"  >
@@ -39,7 +39,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -106,7 +106,7 @@
   </div>
 </nav>
 
-    <div class="view intro-2" id="background" parallax=true
+    <div class="view intro-2" id="background" false
          style="background: url('/img/banner.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
@@ -117,12 +117,43 @@
             </span>
 
             
+              <br>
+              
+                <p class="mt-3">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  Sunday, March 1st 2020, 4:24 pm
+                </p>
+              
+
+              <p>
+                
+                  
+                  &nbsp;<i class="far fa-chart-bar"></i>
+                  <span class="post-count">
+                    123 字
+                  </span>&nbsp;
+                
+
+                
+                  
+                  &nbsp;<i class="far fa-clock"></i>
+                  <span class="post-count">
+                      1 分钟
+                  </span>&nbsp;
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv">
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>&nbsp;
+                
+              </p>
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
-            </div>
           
         </div>
       </div>
@@ -131,89 +162,60 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5 z-depth-3" id="board">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>If you have already set the trace speed to the hightest level in system perferences, and you still feel the mouse move slowly. Here is a tip!</p>
+<p>First, check your speed level in terminal.</p>
+<pre><code class="lang-bash">defaults read -g com.apple.mouse.scaling
+</code></pre>
+<p>The result should be 3. And I strongly recommand you set the number between 6 and 8, or it is too fast to control. Run the code below in terminal.</p>
+<pre><code class="lang-bash">defaults write -g com.apple.mouse.scaling 7
+</code></pre>
+<p>This setting will not make effect until you restart your machine.</p>
+<p>Next time, you still can use this method to change the speed level. Or in system perferences, the highest level still is 3.</p>
+<p>In this way, the track pad would not be affected.</p>
 
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-8 mx-auto index-info">
-      <a href="/2020/03/01/Improve_the_tracking_speed_of_Magic_Mouse/">
-        <p class="h4 index-header">Improve the tracking speed of Magic Mouse</p>
-      </a>
-
-      <a href="/2020/03/01/Improve_the_tracking_speed_of_Magic_Mouse/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">If you have already set the trace speed to the hightest level in system perferences, and you still feel the mouse move slowly. Here is a tip!
-First, check your speed level in terminal.
-defaults read -g com.apple.mouse.scaling
-
-The result should be 3. And I strongly recommand you set the number betwe</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-01&nbsp;&nbsp;
-        
-        
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-8 mx-auto index-info">
-      <a href="/2020/03/01/hello-world/">
-        <p class="h4 index-header">Hello World</p>
-      </a>
-
-      <a href="/2020/03/01/hello-world/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">‘’’math: true‘’’Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.e=1
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
-we
-$443$
-
-More info: Wr</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-01&nbsp;&nbsp;
-        
-        
-        
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-              </div>
-            </div>
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+            
+            </p>
+            
           </div>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container">
+        <div id="toc">
+  <p class="h5"><i class="far fa-list-alt"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+      </div>
+    
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+  </div>
+</div>
+
     
   </main>
 
@@ -292,6 +294,52 @@ More info: Wr</div>
 
 
 
+  
+  <script src="https://cdn.staticfile.org/tocbot/4.10.0/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var navHeight = $('#navbar').height();
+      var toc = $('#toc');
+      var main = $('main');
+      var tocT = navHeight + (toc.offset().top - main.offset().top);
+      var tocLimMin = main.offset().top - navHeight;
+      var tocLimMax = $('#comments').offset().top - navHeight;
+      $(window).scroll(function () {
+        var scroH = document.body.scrollTop + document.documentElement.scrollTop;
+        if (tocLimMin <= scroH && scroH <= tocLimMax) {
+          toc.css({
+            'display': 'block',
+            'position': 'fixed',
+            'top': tocT,
+          });
+        } else if (scroH <= tocLimMin) {
+          toc.css({
+            'position': '',
+            'top': '',
+          });
+        } else if (scroH > tocLimMax) {
+          toc.css('display', 'none');
+        }
+      });
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        scrollSmooth: true,
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc > p').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
 
 
 
@@ -318,7 +366,7 @@ More info: Wr</div>
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Keep Calm and Carry On&nbsp;",
+        "Improve the tracking speed of Magic Mouse&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
